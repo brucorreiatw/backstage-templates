@@ -1,0 +1,11 @@
+version: '3.9'
+
+services:
+  flask-skeleton:
+    build: .
+    container_name: flask-skeleton
+    restart: always
+    env_file:
+      - vars.sample
+    ports:
+      - "8081:${PORT}"
