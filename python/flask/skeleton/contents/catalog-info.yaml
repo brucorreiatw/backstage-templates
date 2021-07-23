@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-templates
+  annotations:
+    github.com/project-slug: brucorreiatw/backstage-templates
+    jenkins.io/github-folder: 'folder-name/project-name'
+spec:
+  type: other
+  lifecycle: unknown
+  owner: team-a
