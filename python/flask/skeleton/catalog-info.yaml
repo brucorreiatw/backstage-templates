@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: backstage-templates
+  name: flask-test-1
   annotations:
     github.com/project-slug: brucorreiatw/backstage-templates
     jenkins.io/github-folder: 'folder-name/project-name'
