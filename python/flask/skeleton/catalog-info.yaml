@@ -8,5 +8,5 @@ metadata:
     jenkins.io/github-folder: {{cookiecutter.name | jsonify}}
 spec:
   type: service
-  lifecycle: experimental
+  lifecycle: production
   owner: {{cookiecutter.owner | jsonify}}
