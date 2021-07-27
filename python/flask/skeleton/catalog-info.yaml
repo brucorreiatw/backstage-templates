@@ -7,6 +7,6 @@ metadata:
     github.com/project-slug: {{cookiecutter.destination.owner + "/" + cookiecutter.destination.repo}}
     jenkins.io/github-folder: {{cookiecutter.name | jsonify}}
 spec:
-  type: service
+  type: openapi
   lifecycle: production
   owner: {{cookiecutter.owner | jsonify}}
